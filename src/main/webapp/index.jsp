@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
 <head>
-    <title>Fly Easy - Sistema de Gestión de Vuelos</title>
+    <title>Fly Easy - Gestiones</title>
 </head>
 <body>
 <h1>Bienvenido a Fly Easy</h1>

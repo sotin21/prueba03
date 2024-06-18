@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+</web-app>
+<servlet>
+<servlet-name>VerInformacionVueloServlet</servlet-name>
+<servlet-class>com.flyeasy.controller.VerInformacionVueloServlet</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>ComprarPasajeServlet</servlet-name>
+<servlet-class>com.flyeasy.controller.ComprarPasajeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>VerInformacionVueloServlet</servlet-name>
+<url-pattern>/verInformacionVuelo</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>ComprarPasajeServlet</servlet-name>
+<url-pattern>/comprarPasaje</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>BuscarVuelosServlet</servlet-name>
+<servlet-class>com.flyeasy.controller.BuscarVuelosServlet</servlet-class>
+</servlet>
+
+<servlet>
+<servlet-name>ReservarPasajeServlet</servlet-name>
+<servlet-class>com.flyeasy.controller.ReservarPasajeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>BuscarVuelosServlet</servlet-name>
+<url-pattern>/buscarVuelos</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+<servlet-name>ReservarPasajeServlet</servlet-name>
+<url-pattern>/reservarPasaje</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+        </web-app>
